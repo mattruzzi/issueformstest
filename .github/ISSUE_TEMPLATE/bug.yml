@@ -44,7 +44,8 @@ body:
     validations:
       required: true
   - type: markdown
-    value: "***Tip:*** Use screenshots whenever possible to help us diagnose the issue better. For an example, see [#1175](https://github.com/nativefier/nativefier/issues/1175)"
+    attributes:
+      value: "***Tip:*** Use screenshots whenever possible to help us diagnose the issue better. For an example, see [#1175](https://github.com/nativefier/nativefier/issues/1175)"
   - type: textarea
     id: expected-behavior
     attributes:
