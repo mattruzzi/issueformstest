@@ -25,12 +25,24 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: bug-description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Bug description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: A clear and concise description of what the bug is.
+      value: |
+        Give your ***full*** nativefier command and its logs, with the ***`--verbose` flag***, on a ***public*** site:
+
+        ```
+        nativefier --verbose --some-option https://mysite.com
+        <paste your verbose build logs too>
+        ```
     validations:
       required: true
   - type: dropdown
