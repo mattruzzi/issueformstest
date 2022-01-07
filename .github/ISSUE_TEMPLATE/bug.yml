@@ -43,6 +43,8 @@ body:
         ```
     validations:
       required: true
+  - type: markdown
+    value: "***Tip:*** Use screenshots whenever possible to help us diagnose the issue better. For an example, see [#1175](https://github.com/nativefier/nativefier/issues/1175)""
   - type: textarea
     id: expected-behavior
     attributes:
@@ -88,12 +90,3 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
-        - label: I agree to follow this project's
-          required: true
