@@ -7,16 +7,15 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-#   - type: checkboxes
-#     id: terms
-#       attributes:
-#         label: Homework
-# #       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-#           options:
-#             - label: I looked at `nativefier --help` and https://github.com/nativefier/nativefier/blob/master/API.md
-#             - label: I checked the [Troubleshooting section of the README](https://github.com/nativefier/nativefier/blob/master/README.md#troubleshooting).
-#             - label: I searched existing issues, open & closed. Yes, my bug is new.
-#             - label: I'm using the latest version available at https://github.com/nativefier/nativefier/releases
+  - type: checkboxes
+    id: terms
+      attributes:
+        label: Homework
+        options:
+          - label: I looked at `nativefier --help` and https://github.com/nativefier/nativefier/blob/master/API.md
+          - label: I checked the [Troubleshooting section of the README](https://github.com/nativefier/nativefier/blob/master/README.md#troubleshooting).
+          - label: I searched existing issues, open & closed. Yes, my bug is new.
+          - label: I'm using the latest version available at https://github.com/nativefier/nativefier/releases
   - type: input
     id: contact
     attributes:
