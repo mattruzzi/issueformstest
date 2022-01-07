@@ -61,25 +61,25 @@ body:
     id: debug-info
     attributes:
       label: Debug info
-    value: |
-      - Console logs of your `nativefier` build command, with `--verbose` flag
-      - If the bug happens at app run time, the in-app DevTools console logs (open it with F12)
-      - Error messages
-      - Screenshots
-      - Anything else relevant!
+      value: |
+        - Console logs of your `nativefier` build command, with `--verbose` flag
+        - If the bug happens at app run time, the in-app DevTools console logs (open it with F12)
+        - Error messages
+        - Screenshots
+        - Anything else relevant!
     validations:
       required: false
   - type: textarea
     id: context
     attributes:
       label: Context
-    value: |
-      - Nativefier: (for example: 9.1.0)
-      - Node.js: (for example: 14.6.0)
-      - Npm: (for example: 6.14.7)
-      - OS: (for example: Windows 10 build 1809)
-      - Is it a regression? If yes, what's the last working / first broken version?
-      - Additional context: (for example: "I'm behind a proxy, with configuration X and protocol Y")
+      value: |
+        - Nativefier: (for example: 9.1.0)
+        - Node.js: (for example: 14.6.0)
+        - Npm: (for example: 6.14.7)
+        - OS: (for example: Windows 10 build 1809)
+        - Is it a regression? If yes, what's the last working / first broken version?
+        - Additional context: (for example: "I'm behind a proxy, with configuration X and protocol Y")
     validations:
       required: false
   - type: textarea
