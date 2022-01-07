@@ -35,10 +35,10 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
-      description: Give your ***full*** nativefier command and its logs, with the ***`--verbose` flag***, on a ***public*** site:
+      description: "Give your ***full*** nativefier command and its logs, with the ***`--verbose` flag***, on a ***public*** site:"
       value: |
         Give your ***full*** nativefier command and its logs, with the ***`--verbose` flag***, on a ***public*** site:
-
+        
         ```
         nativefier --verbose --some-option https://mysite.com
         <paste your verbose build logs too>
