@@ -45,7 +45,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "***Tip:*** Use screenshots whenever possible to help us diagnose the issue better. For an example, see [#1175](https://github.com/nativefier/nativefier/issues/1175)"
+      value: "***Tip:*** Use screenshots whenever possible to help us better diagnose the issue. For an example, see [#1175](https://github.com/nativefier/nativefier/issues/1175)"
   - type: textarea
     id: expected-behavior
     attributes:
@@ -81,6 +81,7 @@ body:
         - Node.js: (for example: 14.6.0)
         - Npm: (for example: 6.14.7)
         - OS: (for example: Windows 10 build 1809)
+        - CPU: (for example intel, amd, apple m1)
         - Is it a regression? If yes, what's the last working / first broken version?
         - Additional context: (for example: "I'm behind a proxy, with configuration X and protocol Y")
     validations:
