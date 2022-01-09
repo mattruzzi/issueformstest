@@ -16,12 +16,6 @@ body:
         - label: I checked the [Troubleshooting section of the README](https://github.com/nativefier/nativefier/blob/master/README.md#troubleshooting).
         - label: I searched existing issues, open & closed. Yes, my bug is new.
         - label: I'm using the latest version available at https://github.com/nativefier/nativefier/releases
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
