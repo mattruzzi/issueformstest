@@ -64,12 +64,12 @@ body:
     id: os
     attributes:
       label: OS
-      placeholder: "for example: Windows 10 build 1809"
+      placeholder: "For example: Windows 10 build 1809"
   - type: textarea
     id: context
     attributes:
       label: Additional context
       description: Any additional information that would be relevant. 
-      placeholder: "for example: \"I'm behind a proxy, with configuration X and protocol Y\""
+      placeholder: "For example: \"I'm behind a proxy, with configuration X and protocol Y\""
     validations:
       required: false
