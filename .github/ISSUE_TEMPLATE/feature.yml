@@ -51,7 +51,7 @@ body:
       label: Nativefier version
       description: |
         Output of 
-        ```
+        ```sh
         nativefier --version
         ```
   - type: textarea
