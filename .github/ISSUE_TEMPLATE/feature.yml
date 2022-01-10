@@ -60,16 +60,16 @@ body:
     attributes:
       label: npm version
       description: "Output of `npm --version`"
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "for example: Windows 10 build 1809"
   - type: textarea
     id: context
     attributes:
-      label: Context
-      value: |
-        - Node.js: (for example: 14.6.0)
-        - Npm: (for example: 6.14.7)
-        - OS: (for example: Windows 10 build 1809)
-        - CPU: (for example intel, amd, apple m1)
-        - Is it a regression? If yes, what's the last working / first broken version?
-        - Additional context: (for example: "I'm behind a proxy, with configuration X and protocol Y")
+      label: Additional context
+      description: Any additional information that would be relevant. 
+      placeholder: "for example: "I'm behind a proxy, with configuration X and protocol Y""
     validations:
       required: false
