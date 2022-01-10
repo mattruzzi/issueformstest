@@ -48,8 +48,8 @@ body:
   - type: input
     id: nativefier-version
     attributes:
-      label: Nativefier version `nativefier --version`
-      description: "`nativefier --version`"
+      label: Nativefier version
+      description: "Output of `nativefier --version`"
   - type: textarea
     id: context
     attributes:
