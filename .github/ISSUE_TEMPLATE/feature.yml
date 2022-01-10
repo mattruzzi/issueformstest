@@ -50,7 +50,7 @@ body:
     attributes:
       label: Nativefier version
       description: "Output of `nativefier --version`"
-   - type: input
+  - type: input
     id: node-version
     attributes:
       label: Node.js version
