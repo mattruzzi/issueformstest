@@ -49,11 +49,7 @@ body:
     id: nativefier-version
     attributes:
       label: Nativefier version
-      description: |
-        Output of 
-        ```sh
-        nativefier --version
-        ```
+      description: "Output of `nativefier --version`"
   - type: textarea
     id: context
     attributes:
