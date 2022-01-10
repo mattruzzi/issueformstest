@@ -49,6 +49,7 @@ body:
     id: nativefier-version
     attributes:
       label: Nativefier version `nativefier --version`
+      description: `nativefier --version`
   - type: textarea
     id: context
     attributes:
