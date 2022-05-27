@@ -66,17 +66,31 @@ body:
         - Anything else relevant!
     validations:
       required: false
+  - type: input
+    id: nativefier-version
+    attributes:
+      label: Nativefier version
+      description: "Output of `nativefier --version`"
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      description: "Output of `node --version`"
+  - type: input
+    id: npm-version
+    attributes:
+      label: npm version
+      description: "Output of `npm --version`"
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "For example: Windows 10 build 1809"
   - type: textarea
     id: context
     attributes:
-      label: Context
-      value: |
-        - Nativefier: (for example: 9.1.0)
-        - Node.js: (for example: 14.6.0)
-        - Npm: (for example: 6.14.7)
-        - OS: (for example: Windows 10 build 1809)
-        - CPU: (for example intel, amd, apple m1)
-        - Is it a regression? If yes, what's the last working / first broken version?
-        - Additional context: (for example: "I'm behind a proxy, with configuration X and protocol Y")
+      label: Additional context
+      description: Any additional information that would be relevant. 
+      placeholder: "For example: \"I'm behind a proxy, with configuration X and protocol Y\""
     validations:
       required: false
